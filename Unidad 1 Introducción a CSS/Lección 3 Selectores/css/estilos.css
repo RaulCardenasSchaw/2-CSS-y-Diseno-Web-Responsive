@@ -1,0 +1,43 @@
+body	{
+		background-color: #A5A2A7;
+		color: white;
+		font-family: Verdana;
+	}
+h1 	{
+		font-family: Arial;
+		color: #421D5A;
+	}
+h2 	{
+		font-family: Arial;
+		font-style: italic;
+		color: #421D5A;
+	}
+a 	{
+		color: #8214CB;
+		font-family: Tahoma;
+		font-size: 20px;
+	}
+div	{
+		margin-top: 10px;
+		margin-left: 20px;
+	}	
+img	{
+	border-radius: 10pz;
+	}
+strong	
+	{
+		color: #4E087C;
+		
+	}
+footer {
+		background-color: #A5A2A7;
+		color: black;
+		font-family: Arial;
+		font-style: italic;
+	}	
+ul   {
+		list-style-type: square;
+	}	
+ol   {
+		list-style-type: lower-roman;
+	}	
