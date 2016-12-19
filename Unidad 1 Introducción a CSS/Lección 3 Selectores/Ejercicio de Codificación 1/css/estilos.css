@@ -1,0 +1,24 @@
+body	{ 
+	color: red; 
+	/* color: white; !important */
+	}
+
+p 	{
+	color: blue;
+	}
+	
+body p{
+	color: green;
+	font-size: 25px;
+}	
+
+
+#menu-principal{
+	padding: 10px 0px;
+}
+
+h1.titulo{
+	background-color: aliceblue;
+	text-align: center;
+	padding: 10px;
+}

@@ -22,7 +22,7 @@ div	{
 		margin-left: 20px;
 	}	
 img	{
-	border-radius: 10pz;
+	border-radius: 30pz;
 	}
 strong	
 	{
@@ -41,3 +41,18 @@ ul   {
 ol   {
 		list-style-type: lower-roman;
 	}	
+#Educacion{
+		font-family: Tahoma;
+		font-style: oblique;
+		font-size: 20px;
+		color: black;
+	
+}	
+
+#Experiencia{
+		font-family: Book Antiqua;
+		font-style: bold;
+		font-size: 15px;
+		color: red;
+	
+}	
