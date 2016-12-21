@@ -1,0 +1,29 @@
+body	{
+		font-family: Verdana;
+		margin: 20px;
+		background-color: #A5A2A7;
+		font-weight: bold;
+	}
+
+input[name^=email]
+	{
+		color: #eeeeee;
+	}
+
+p:nth-child(3)
+	{
+		color: red;
+	}
+p:nth-child(4)
+		{
+			color: blue;
+		}
+
+p, label
+	{
+		font-family: Tahoma;
+	}
+p  > textarea
+	{
+		width: 200px;
+	}

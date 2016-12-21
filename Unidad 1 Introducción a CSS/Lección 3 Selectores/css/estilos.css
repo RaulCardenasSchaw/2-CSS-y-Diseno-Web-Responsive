@@ -1,58 +1,137 @@
-body	{
+body{
 		background-color: #A5A2A7;
 		color: white;
 		font-family: Verdana;
 	}
-h1 	{
+h1{
 		font-family: Arial;
 		color: #421D5A;
 	}
-h2 	{
+
+h2{
 		font-family: Arial;
 		font-style: italic;
 		color: #421D5A;
 	}
-a 	{
+a{
 		color: #8214CB;
 		font-family: Tahoma;
 		font-size: 20px;
 	}
-div	{
+div{
 		margin-top: 10px;
 		margin-left: 20px;
-	}	
-img	{
-	border-radius: 30pz;
 	}
-strong	
-	{
+img{
+		border-radius: 30pz;
+	}
+
+strong{
 		color: #4E087C;
-		
 	}
-footer {
+
+footer{
 		background-color: #A5A2A7;
 		color: black;
 		font-family: Arial;
 		font-style: italic;
-	}	
-ul   {
+	}
+ul{
 		list-style-type: square;
-	}	
-ol   {
+	}
+ol{
 		list-style-type: lower-roman;
-	}	
+	}
 #Educacion{
-		font-family: Tahoma;
-		font-style: oblique;
-		font-size: 20px;
-		color: black;
-	
-}	
+	font-family: Tahoma;
+	font-style: oblique;
+	font-size: 20px;
+	color: black;
+	}
 
 #Experiencia{
-		font-family: Book Antiqua;
-		font-style: bold;
-		font-size: 15px;
+	font-family: Book Antiqua;
+	font-style: bold;
+	font-size: 15px;
+	color: red;
+	}
+
+/*
+a[href]{
+	color: blue;
+}*/
+
+img[src&='.svg']{
+	border-radius: 50px;
+}
+
+img[src&='jpg'], img[src&='png']{
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+a[href^='htpp://']:visited{
 		color: red;
-	
-}	
+	}
+
+a:hover{
+		color: green;
+	}
+h2:first-child{
+		text-decoration: underline;
+	}
+
+input:focus{
+		width: 160px;
+		height: 140px;
+	}
+
+p::first-letter{
+		text-transform: capitalize;
+		font-size: 32px;
+		color: blue;
+	}
+
+p::first-line{
+	}
+p::selection{
+}
+
+::before::after
+:first-child
+:last-child
+
+
+#Educacion>ul>li:first-child>a::after{
+		content: '" - Al Final"'
+	}
+
+#Educacion>ul>li:last-child>a::before{
+		content: '"Al Inicio - "'
+	}
+
+#Educacion>ul>li:nth-child(2)>a::after{
+		content: '" - Hijo 2"'
+	}
+
+#Educacion>table>thead{
+		color: white;
+		background-color: blue;
+	}
+
+#Habilidades_Personales>ul>li:first-child>em::after{
+		content: '" - Al Final"'
+	}
+
+#Habilidades_Personales>ul>li:last-child>em::before{
+		content: '"Al Inicio - "'
+	}
+
+#Habilidades_Personales>ul>li:nth-child(2)>em::after{
+		content: '" - Hijo 2"'
+	}
+
+#Habilidades_Personales>p{
+		color: green;
+		font-weight: bold;
+	}
